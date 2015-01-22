@@ -1,0 +1,42 @@
+li {
+	font-weight: bold;
+	text-shadow: .075em .075em .075em green;
+}
+
+/* Used to display a shadow effect on the images */
+
+img {
+	box-shadow: 0.25em 0.25em 0.5em green;
+}
+
+/* Changing colors when we hover over them */
+
+img:hover {
+	box-shadow: 0.25em 0.25em 0.5em orange;
+}
+
+/* contain all our images side by side */
+
+figure {
+	display: inline-block;
+	margin: 0.1em;
+}
+
+figcaption {
+	font-style: oblique;
+	font-weight: bold;
+}
+
+.content_title {
+	text-decoration: underline;
+	color: white;
+	text-shadow: 0.05em 0.05em 0.5em black;
+}
+
+.about {
+	display: block;
+}
+
+.center_text {
+	text-align: center;
+}
